@@ -1,0 +1,11 @@
+  const [newNumber, setNewNumber] = useState('');
+
+  const resetHandler = () => {
+    setNewNumber('');
+    console.log(newNumber);
+  }
+  
+  const confirmHandler = (enteredNumber) => {
+      setNewNumber(enteredNumber);
+      console.log(newNumber);
+  }
